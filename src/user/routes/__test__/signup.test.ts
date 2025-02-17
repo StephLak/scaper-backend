@@ -9,7 +9,7 @@ it('returns a 201 on successful registration', async () => {
             password: 'password'
         })
         .expect(201);
-}, 10000);
+});
 
 it("returns a 400 with an invalid email", async () => {
     await request(app)
