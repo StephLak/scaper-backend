@@ -8,8 +8,7 @@
     "build": "tsc",
     "start": "node dist/index.js",
     "test": "jest --detectOpenHandles --watchAll --no-cache",
-    "test:ci": "jest --detectOpenHandles",
-    "vercel-build": "npm install && npm run build"
+    "test:ci": "jest --detectOpenHandles"
   },
   "jest": {
     "preset": "ts-jest",
